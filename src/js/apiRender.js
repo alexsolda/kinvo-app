@@ -1,4 +1,4 @@
-//***API
+//***** API Simulada
 
 const api = {
     snapshotByPortfolio: {
@@ -208,9 +208,9 @@ const api = {
     ]
 };
 
-//***** API Simulada
-
 const loadData = async () => {
+    // API com consultas limitadas
+    
     // const urlApi = 'https://1762dd35-8f53-49fd-8b8e-c8134a283cb4.mock.pstmn.io/getFixedIncomeClassData';
 
     // let req = await fetch(urlApi);
