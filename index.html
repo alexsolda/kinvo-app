@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0ae47d5c72.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="src/sass/style.css">
+    <title>Kinvo Premium</title>
+</head>
+
+<body>
+    <header class="header__container">
+        <img src="src/img/logo.svg" alt="kinvo logo">
+        <div class="header__info">
+            <div class="header__info-content">
+                <div class="header__info-icon">
+                    <i class="fas fa-coins icon--default"></i>
+                </div>
+                <div class="header__info-infos">
+                    <span class="text--title">SALDO BRUTO</span>
+                    <p class="header__values" id='equity'>0,00</p>
+                </div>
+            </div>
+
+            <div class="header__info-content">
+                <div class="header__info-icon">
+                    <i class="fas fa-arrow-up icon--default"></i>
+                </div>
+                <div class="header__info-infos">
+                    <span class="text--title">VALOR APLICAÇÃO</span>
+                    <p class="header__values" id='value-applied'>0,00</p>
+                </div>
+            </div>
+
+            <div class="header__info-content">
+                <div class="header__info-icon">
+                    <i class="fas fa-chart-line icon--default"></i>
+                </div>
+                <div class="header__info-infos">
+                    <span class="text--title">RENTABILIDADE</span>
+                    <p class="header__values" id='percentage-profit'>0%</p>
+                </div>
+            </div>
+
+            <div class="header__info-content">
+                <div class="header__info-icon">
+                    <i class="fas fa-arrow-down icon--active"></i>
+                </div>
+                <div class="header__info-infos">
+                    <span class="text--title">CARTEIRA</span>
+                    <p class="header__values">Minha Carteira</p>
+                </div>
+            </div>
+
+            <div class="header__info-content">
+                <div class="header__info-icon">
+                    <i class="fas fa-bars icon--active"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main__container">
+        <aside class="menu__container">
+
+            <div class="menu__content">
+                <div class="menu__content-link">
+                    <div class="menu__icon"><i class="fas fa-spinner icon--default icon__accordeon"></i></div>
+                    <h3 class="menu__item">Resumo <br>Da Carteira</h3>
+                    <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                </div>
+                <div class="menu__accordeon">
+                    <div class="menu__content-accordeon">
+                        <div class="menu__icon"><i class="fas fa-circle icon--dot"></i></i></div>
+                        <h3 class="menu__item">Ação</h3>
+                        <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                    <div class="menu__content-accordeon">
+                        <div class="menu__icon"><i class="fas fa-circle icon--dot"></i></i></div>
+                        <h3 class="menu__item">Finanças</h3>
+                        <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                    <div class="menu__content-accordeon">
+                        <div class="menu__icon"><i class="fas fa-circle icon--dot"></i></i></div>
+                        <h3 class="menu__item">Rendimento</h3>
+                        <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu__content">
+                <div class="menu__content-link">
+                    <div class="menu__icon"><i class="fas fa-spinner icon--default icon__accordeon"></i></div>
+                    <h3 class="menu__item">Resumo <br>Da Carteira</h3>
+                    <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                </div>
+                <div class="menu__accordeon">
+                    <div class="menu__content-accordeon">
+                        <div class="menu__icon"><i class="fas fa-circle icon--dot"></i></i></div>
+                        <h3 class="menu__item">Ação</h3>
+                        <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                    <div class="menu__content-accordeon">
+                        <div class="menu__icon"><i class="fas fa-circle icon--dot"></i></i></div>
+                        <h3 class="menu__item">Ação</h3>
+                        <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                    <div class="menu__content-accordeon">
+                        <div class="menu__icon"><i class="fas fa-circle icon--dot"></i></i></div>
+                        <h3 class="menu__item">Ação</h3>
+                        <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu__content">
+                <div class="menu__content-link">
+                    <div class="menu__icon"><i class="fas fa-spinner icon--default icon__accordeon"></i></div>
+                    <h3 class="menu__item">Resumo <br>Da Carteira</h3>
+                    <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                </div>
+                <div class="menu__accordeon">
+                    <div class="menu__content-accordeon">
+                        <div class="menu__icon"><i class="fas fa-circle icon--dot"></i></i></div>
+                        <h3 class="menu__item">Ação</h3>
+                        <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                    <div class="menu__content-accordeon">
+                        <div class="menu__icon"><i class="fas fa-circle icon--dot"></i></i></div>
+                        <h3 class="menu__item">Ação</h3>
+                        <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                    <div class="menu__content-accordeon">
+                        <div class="menu__icon"><i class="fas fa-circle icon--dot"></i></i></div>
+                        <h3 class="menu__item">Ação</h3>
+                        <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu__content">
+                <div class="menu__content-link">
+                    <div class="menu__icon"><i class="fas fa-spinner icon--default icon__accordeon"></i></div>
+                    <h3 class="menu__item">Resumo <br>Da Carteira</h3>
+                    <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                </div>
+                <div class="menu__accordeon">
+                    <div class="menu__content-accordeon">
+                        <div class="menu__icon"><i class="fas fa-circle icon--dot"></i></i></div>
+                        <h3 class="menu__item">Ação</h3>
+                        <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                    <div class="menu__content-accordeon">
+                        <div class="menu__icon"><i class="fas fa-circle icon--dot"></i></i></div>
+                        <h3 class="menu__item">Ação</h3>
+                        <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                    <div class="menu__content-accordeon">
+                        <div class="menu__icon"><i class="fas fa-circle icon--dot"></i></i></div>
+                        <h3 class="menu__item">Ação</h3>
+                        <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu__content">
+                <div class="menu__content-link">
+                    <div class="menu__icon"><i class="fas fa-spinner icon--default icon__accordeon"></i></div>
+                    <h3 class="menu__item">Resumo <br>Da Carteira</h3>
+                    <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                </div>
+                <div class="menu__accordeon">
+                    <div class="menu__content-accordeon">
+                        <div class="menu__icon"><i class="fas fa-circle icon--dot"></i></i></div>
+                        <h3 class="menu__item">Ação</h3>
+                        <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                    <div class="menu__content-accordeon">
+                        <div class="menu__icon"><i class="fas fa-circle icon--dot"></i></i></div>
+                        <h3 class="menu__item">Ação</h3>
+                        <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                    <div class="menu__content-accordeon">
+                        <div class="menu__icon"><i class="fas fa-circle icon--dot"></i></i></div>
+                        <h3 class="menu__item">Ação</h3>
+                        <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu__content">
+                <div class="menu__content-link">
+                    <div class="menu__icon"><i class="fas fa-spinner icon--default icon__accordeon"></i></div>
+                    <h3 class="menu__item">Resumo <br>Da Carteira</h3>
+                    <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                </div>
+                <div class="menu__accordeon">
+                    <div class="menu__content-accordeon">
+                        <div class="menu__icon"><i class="fas fa-circle icon--dot"></i></i></div>
+                        <h3 class="menu__item">Ação</h3>
+                        <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                    <div class="menu__content-accordeon">
+                        <div class="menu__icon"><i class="fas fa-circle icon--dot"></i></i></div>
+                        <h3 class="menu__item">Ação</h3>
+                        <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                    <div class="menu__content-accordeon">
+                        <div class="menu__icon"><i class="fas fa-circle icon--dot"></i></i></div>
+                        <h3 class="menu__item">Ação</h3>
+                        <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu__content">
+                <div class="menu__content-link">
+                    <div class="menu__icon"><i class="fas fa-spinner icon--default icon__accordeon"></i></div>
+                    <h3 class="menu__item">Resumo <br>Da Carteira</h3>
+                    <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                </div>
+                <div class="menu__accordeon">
+                    <div class="menu__content-accordeon">
+                        <div class="menu__icon"><i class="fas fa-circle icon--dot"></i></i></div>
+                        <h3 class="menu__item">Ação</h3>
+                        <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                    <div class="menu__content-accordeon">
+                        <div class="menu__icon"><i class="fas fa-circle icon--dot"></i></i></div>
+                        <h3 class="menu__item">Ação</h3>
+                        <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                    <div class="menu__content-accordeon">
+                        <div class="menu__icon"><i class="fas fa-circle icon--dot"></i></i></div>
+                        <h3 class="menu__item">Ação</h3>
+                        <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu__content">
+                <div class="menu__content-link">
+                    <div class="menu__icon"><i class="fas fa-spinner icon--default icon__accordeon"></i></div>
+                    <h3 class="menu__item">Resumo <br>Da Carteira</h3>
+                    <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                </div>
+                <div class="menu__accordeon">
+                    <div class="menu__content-accordeon">
+                        <div class="menu__icon"><i class="fas fa-circle icon--dot"></i></i></div>
+                        <h3 class="menu__item">Ação</h3>
+                        <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                    <div class="menu__content-accordeon">
+                        <div class="menu__icon"><i class="fas fa-circle icon--dot"></i></i></div>
+                        <h3 class="menu__item">Ação</h3>
+                        <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                    <div class="menu__content-accordeon">
+                        <div class="menu__icon"><i class="fas fa-circle icon--dot"></i></i></div>
+                        <h3 class="menu__item">Ação</h3>
+                        <div class="menu__arrow"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <section class="section__main section__container">
+            <h3 class="section__title">Renda Fixa</h3>
+            <div class="section__cards">
+                <div class="section__card">
+                    <div class="section__card-content">
+                        <span class="section__card-title">SALDO BRUTO</span>
+                        <p class="section__card-data">R$207.653,10</p>
+                    </div>
+                </div>
+
+                <div class="section__card">
+                    <div class="section__card-content">
+                        <span class="section__card-title">VALOR APLICADO</span>
+                        <p class="section__card-data">R$170.025,64</p>
+                    </div>
+                </div>
+
+                <div class="section__card">
+                    <div class="section__card-content">
+                        <span class="section__card-title">RESULTADO</span>
+                        <p class="section__card-data">R$37.638,46</p>
+                    </div>
+                </div>
+
+                <div class="section__card">
+                    <div class="section__card-content">
+                        <span class="section__card-title">RENTABILIDADE</span>
+                        <p class="section__card-data">25,08%</p>
+                    </div>
+                </div>
+
+                <div class="section__card">
+                    <div class="section__card-content">
+                        <span class="section__card-title">CDI</span>
+                        <p class="section__card-data">23,68%</p>
+                    </div>
+                </div>
+
+                <div class="section__card">
+                    <div class="section__card-content">
+                        <span class="section__card-title">% SOBRE CDI</span>
+                        <p class="section__card-data">320%</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section--data">
+                <img src="src/img/graph.svg" alt="grafico" class="section__graph-img">
+            </div>
+
+            <div class="section__info section--data">
+                <div class="section__info-menu">
+                    <div class="section--title">Minhas Rendas Fixas</div>
+                    <div class="section__filters">
+                        <div class="section__filters-select">
+                            <select name="ordernar" id="order" class="section__filter-select">
+                                <option value="default">Ordenar por...</option>
+                                <option value="titulo">Título</option>
+                                <option value="vencimento">Dias até o vencimento</option>
+                                <option value="investimento">Valor do investimento</option>
+                                <option value="bruto">Valor bruto</option>
+                            </select>
+                        </div>
+                        <div class="section__filter-input">
+                            <i class="fas fa-search section__filter-icon"></i>
+                            <input type="text" name='searchFilter' id='search-filter' class="section__filter-field" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="data__container">
+                    <div class="data__loading">
+                        <i class="fas fa-spinner data__loading-icon"></i>
+                    </div>
+                </div>
+
+                <div class="pagination__container">
+                    <div class="pagination__control" id='previous'><i class="fas fa-angle-left"></i></div>
+                    <div class="pagination__numbers">
+                        <div class="pagination__number">1</div>
+                    </div>
+                    <div class="pagination__control" id="next"><i class="fas fa-angle-right"></i></div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <script src="src/js/app.js"></script>
+    <script src="src/js/apiRender.js"></script>
+</body>
+
+</html>

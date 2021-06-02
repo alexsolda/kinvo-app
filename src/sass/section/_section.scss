@@ -1,0 +1,241 @@
+@keyframes loading {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.section__main {
+    flex: 1;
+
+    .section__title {
+        font-size: 20px;
+        color: $color-primary;
+        font-weight: 700;
+    }
+
+    .section__cards {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        column-gap: 20px;
+        padding: 30px 0;
+
+        .section__card {
+            background-color: $elements-bg;
+            border-radius: 10px;
+            padding: 15px 10px;
+
+            .section__card-content {
+                border-left: 2px solid $border-section3;
+
+                .section__card-title {
+                    margin-left: 10px;
+                    font-size: 9px;
+                    color: $color-text-section3;
+                    font-weight: 500;
+                }
+
+                .section__card-data {
+                    margin-left: 10px;
+                    color: $color-primary;
+                    font-weight: 700;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .section__graph-img {
+        width: 100%;
+    }
+
+    .section__info-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 20px;
+        border-bottom: 1px solid $color-border-section3;
+
+        .section__filters {
+            display: flex;
+
+            .section__filters-select {
+                display: flex;
+                width: 155px;
+                padding: 8px 5px;
+                border-radius: 10px;
+                border: 1px solid $color-border-section3;
+                margin-right: 10px;
+
+                .section__filter-select {
+                    color: $color-text-aside;
+                    border: none;
+                    flex: 1;
+                    outline: none;
+                    appearance: none;
+                    background-image: url("/src/img/down-arrow.svg");
+                    background-repeat: no-repeat;
+                    background-position-x: right;
+                    background-size: 12px;
+                    background-position-y: center;
+                }
+            }
+
+            .section__filter-input {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 240px;
+                padding: 8px 5px;
+                border-radius: 10px;
+                color: $color-text-aside;
+                border: 1px solid $color-border-section3;
+
+                .section__filter-icon {
+                    cursor: pointer;
+                }
+
+                .section__filter-field {
+                    border: 0;
+                    outline: none;
+                    flex: 1;
+                    padding: 0 8px;
+                }
+            }
+        }
+    }
+
+    .data__loading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding: 100px 0;
+
+        .data__loading-icon {
+            color: $color-primary;
+            font-size: 50px;
+            opacity: 0.8;
+            animation: loading 1s linear infinite;
+        }
+    }
+
+    .data__content {
+        display: grid;
+        grid-template-columns: 1.5fr 2fr 1.1fr;
+        gap: 10px;
+        padding: 20px 10px;
+
+        .data__card {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            justify-content: space-between;
+
+            .data__card-title {
+                width: 40%;
+                border: 1px solid $border-section3;
+                border-bottom: 0;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                padding: 5px 10px;
+
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .data__title {
+                    font-size: 10px;
+                    font-weight: 400;
+                    color: $color-text-section3;
+                }
+
+                .data__icon {
+                    color: $color-text-section3;
+                }
+            }
+
+            .data__card-infos {
+                border: 1px solid $border-section3;
+                border-top-right-radius: 10px;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                padding: 5px 10px;
+
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .data__description p {
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: $color-text-section3;
+                }
+
+                .data__specs {
+                    .data__specs-title {
+                        font-size: 10px;
+                        font-weight: 400;
+                        color: $color-text-section3;
+                    }
+
+                    .data__spec-value {
+                        font-weight: 700;
+                    }
+
+                    .primary {
+                        color: $color-primary;
+                    }
+
+                    .secondary {
+                        color: $color-secondary-section3;
+                    }
+
+                    .third {
+                        color: $color-third-section3;
+                    }
+                }
+            }
+        }
+    }
+
+    .pagination__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+
+        .pagination__control,
+        .pagination__number {
+            padding: 10px 15px;
+            border-radius: 5px;
+            border: 2px solid $border-section3;
+            color: $color-primary;
+            transition: all ease 0.6s;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $border-section3;
+            }
+        }
+
+        .pagination__number-active {
+            background-color: $border-section3;
+        }
+
+        .pagination__numbers {
+            display: flex;
+            transition: .6s;
+        }
+
+        .pagination__control:first-child {
+            margin-right: 10px;
+        }
+
+        .pagination__number {
+            margin-right: 10px;
+        }
+    }
+}
