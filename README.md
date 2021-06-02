@@ -55,7 +55,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ---
 
-#### 🧭 Rodando a aplicação web
+### 🧭 Rodando a aplicação web
 
 
 # Clone este repositório
