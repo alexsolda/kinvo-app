@@ -8,8 +8,8 @@
   </a>
     
    
-   <a href="https://github.com/alexsolda/mybank-app/blob/developing/LICENSE">
-	<img alt="License" src="https://img.shields.io/github/license/alexsolda/mybank-app">
+  <a href="https://github.com/alexsolda/kinvo-app/blob/main/LICENSE">
+	<img alt="License" src="https://img.shields.io/github/license/alexsolda/kinvo-app">
   </a>
 
   <a href="https://www.linkedin.com/in/alexsolda/">
@@ -19,12 +19,9 @@
   
  
 </p>
-<h1 align="center">
-    <img alt="MyBank App" title="#Mybankapp" src="https://user-images.githubusercontent.com/62905501/120028990-db184800-bfcb-11eb-8f77-3d25128225d5.png" />
-</h1>
 
 <h4 align="center"> 
-  MyBank :bank: Em evolução 🚧
+  KINVO App - Concluído
 </h4>
 
 
@@ -32,19 +29,18 @@
 
 ## 💻 Sobre o projeto
 
-:bank: MyBank - é um aplicativo com o intuito de ajudar na organização das suas finanças pessoais.
+:bank: KINVO App é um protótipo clonado de um repositório de um teste profissional para contratação de desenvolvedores frontend. Aqui o intuito foi fixar os conceitos de renderização dinâmica de elementos através de consulta a API, paginação, ordenação e filtragem por pesquisa.
 
 
-Projeto pessoal desenvolvido para agregar em meu portifólio.
+Desenvolvido para agregar em meu portifólio.
 
 ---
 
 ## ⚙️ Funcionalidades
 
-- [x] Cadastro simplificado.
-- [x] Criar diversas contas. 
-- [x] Adicinionar e remover valores.
-- [ ] Consultar histórico de transações (em construção).
+- [x] Paginação;
+- [x] Ordenação de resultados;
+- [x] Filtragem de resultados por input;
 
 ---
 
@@ -54,8 +50,7 @@ Projeto pessoal desenvolvido para agregar em meu portifólio.
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
-Criar um projeto no [Firebase](https://firebase.google.com/?gclid=CjwKCAjwqcKFBhAhEiwAfEr7zfNv9N5J6Q8by8vxLtLf1oiEk-MRx7AskpkQUcZvEcmU370MJsB8CBoC8FMQAvD_BwE&gclsrc=aw.ds)
+[Git](https://git-scm.com)
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 ---
@@ -65,38 +60,10 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 # Clone este repositório
 ```bash
-git clone git@github.com:alexsolda/mybank-app.git
+git clone git@github.com:alexsolda/kinvo-app.git
 ```
 
-# Crie um arquivo .env.local com as seguintes chaves:
-#### Atribua as configurações do seu Firebase a cada chave.
-```bash
-REACT_APP_FIREBASE_API_KEY
-REACT_APP_FIREBASE_AUTH_DOMAIN
-REACT_APP_FIREBASE_PROJECT_ID
-REACT_APP_FIREBASE_STORAGE_BUCKET
-REACT_APP_FIREBASE_MESSAGING_SENDER_ID
-REACT_APP_FIREBASE_APP_ID
-```
-
-
-
-
-
-# Instale as dependências
-```bash
-npm install
-```
-
-
-# Execute a aplicação em modo de desenvolvimento
-```bash
-npm run start
-```
-
-#### A aplicação será aberta na porta:3000 - acesse http://localhost:3000
-
-
+# Use alguma extensão para rodar o projeto. Ex.: Live Server e Watch Sass no VS Code
 
 ---
 
@@ -104,12 +71,11 @@ npm run start
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-####  [React](https://reactjs.org/) 
 
--   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
--   **[Context API](https://pt-br.reactjs.org/docs/context.html)**
--   **[styled-components](https://styled-components.com/)**
--   **[Material UI Icons](https://material-ui.com/pt/components/material-icons//)**
+-   **[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)**
+-   **[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)**
+-   **[SASS](https://sass-lang.com/)**
+-   **[JAVASCRIPT](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)**
 
 ---
 
@@ -128,7 +94,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 📝 Licença
 
-Este projeto esta sobe a licença [MIT](https://github.com/alexsolda/mybank-app/blob/developing/LICENSE).
+Este projeto esta sobe a licença [MIT](https://github.com/alexsolda/kinvo-app/blob/main/LICENSE).
 
 Feito com ❤️ por Alex Solda 👋🏽 [Entre em contato!](https://www.linkedin.com/in/alexsolda/)
 
