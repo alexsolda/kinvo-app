@@ -36,7 +36,7 @@ Desenvolvido para agregar em meu portifólio.
 
 ### Repositório referência
 
-``bash
+```bash
 https://github.com/kinvoapp/kinvo-front-end-test
 ``
 
