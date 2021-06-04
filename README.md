@@ -38,11 +38,7 @@ Desenvolvido para agregar em meu portifólio.
 
 ```bash
 https://github.com/kinvoapp/kinvo-front-end-test
-<<<<<<< HEAD
 ```
-=======
-``
->>>>>>> 445d7b5b9d25885e7e37eedb01a3db1c3aab5980
 
 ---
 
